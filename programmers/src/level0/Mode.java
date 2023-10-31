@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Arrays;
 
-public class Mode {
+public class Mode { // 최빈값 구하기
     public int solution(int[] array) {
         int answer = 0;
         int max = 0;
