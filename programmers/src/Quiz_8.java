@@ -44,7 +44,7 @@ public class Quiz_8 {
         // 2) 최빈값출력 ** 최빈값이 2개이상 이라면 -1을 출력
         int result = 0;
         int max = 0;
-        for (Integer keyNum : map.keySet()) {
+        for (int keyNum : map.keySet()) {
             // hashmap 체크
             System.out.print("k : " + keyNum + " = ");
             System.out.println("v : " + map.get(keyNum));

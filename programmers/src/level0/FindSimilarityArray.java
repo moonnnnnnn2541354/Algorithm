@@ -12,5 +12,4 @@ public class FindSimilarityArray {
         }
         return answer;
     }
-    programmers\src\level0\FindSimilarityArray
 }
