@@ -32,7 +32,7 @@ public class Quiz_8 {
         System.out.println("Map을 활용해서 숫자 5개를 입력 받아 최빈값 구하기");
         System.out.println("최빈값이 2개이상 이라면 -1 을 출력");
 
-        // 1) Map을 활용해서 숫자 5개를 입력 받아 최빈값 구하기
+        // 1) HashMap을 활용해서 숫자 5개를 입력 받아 최빈값 구하기
         int key = 0;
         for (int i = 0; i < 5; i++) {
             key = scanner.nextInt();
