@@ -17,6 +17,7 @@ public class Quiz_6 {
         // 처음에는 길이 정하기
         // 0 pop
         // 1 peek
+        //
 
         Scanner scanner = new Scanner(System.in);
         Stack<Integer> stack = new Stack<>();
