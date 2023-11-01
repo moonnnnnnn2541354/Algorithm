@@ -11,6 +11,7 @@ public class Quiz_7 {
         // 길이 : queue.size();
         // queue 이 비었는지 안비었는지 : queue.isEmpty();
         // 포함여부 : queue.contains(0);
+        //
 
         Queue<Integer> queue = new LinkedList<>();
         Scanner scanner = new Scanner(System.in);
