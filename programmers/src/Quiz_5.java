@@ -12,6 +12,7 @@ public class Quiz_5 {
         // 길이 : list.size();
         // List 가 비었는지 안비었는지 : list.isEmpty();
         // 포함여부 : list.contains(0);
+        //
 
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> nameList = new ArrayList<>();
