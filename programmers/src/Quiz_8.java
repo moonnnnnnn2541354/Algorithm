@@ -51,7 +51,8 @@ public class Quiz_8 {
 
             if (max < map.get(keyNum)){ // 최빈값의 value 찾기
                 max = map.get(keyNum);
-                result = keyNum;
+                result = key;
+
             } else if (max == map.get(keyNum)) { // 최빈값의 value가 여러개면 -1
                 result = -1;
             }
