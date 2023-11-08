@@ -49,7 +49,7 @@ public class NationalCompetition {
             }
         }
         List<Integer> list1 = new ArrayList<>(map.keySet());
-        Collections.sort(list1);
+        Collections.sort(list1);a
         List<Integer> list = new ArrayList<>();
         for (Integer key: list1) {
             list.add(map.get(key));
