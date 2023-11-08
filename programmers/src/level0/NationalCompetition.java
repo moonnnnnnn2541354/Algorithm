@@ -35,10 +35,8 @@ public class NationalCompetition {
         }
 
         int answer = 0;
-        int num = 0;
         for (int i = 0; i < 3; i++) {
-            answer = num + studentList.get(i).index; // 20403
-            num = answer * 100; // 20400
+            answer = ( answer + studentList.get(i).index )*100; // 20403
         }
         System.out.println(answer);
     }
