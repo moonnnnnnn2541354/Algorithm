@@ -12,6 +12,7 @@ public class NationalCompetition {
             this.index = index;
         }
     }
+
     public static void main(String[] args) {
         int[] rank = {3, 7, 2, 5, 4, 6, 1};
         boolean[] attendance = {false, true, true, true, true, false, false};
@@ -26,7 +27,7 @@ public class NationalCompetition {
         Collections.sort(studentList, new Comparator<StudentList>() {
             @Override
             public int compare(StudentList o1, StudentList o2) {
-                return o1.rank - o2.rank ;
+                return o1.rank - o2.rank; // 빼고 음수가 나오면 o1 이 앞으로 가고 //  양수가 나오면 o2가 앞으로 감
             }
         });
 
@@ -36,7 +37,7 @@ public class NationalCompetition {
 
         int answer = 0;
         for (int i = 0; i < 3; i++) {
-            answer = ( answer + studentList.get(i).index )*100; // 20403
+            answer = ( answer + studentList.get(i).index ) * 100; // 20403
         }
         System.out.println(answer);
     }
@@ -49,7 +50,7 @@ public class NationalCompetition {
             }
         }
         List<Integer> list1 = new ArrayList<>(map.keySet());
-        Collections.sort(list1);a
+        Collections.sort(list1);
         List<Integer> list = new ArrayList<>();
         for (Integer key: list1) {
             list.add(map.get(key));
