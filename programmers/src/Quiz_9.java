@@ -13,6 +13,7 @@ public class Quiz_9 {
         strArr[0] = "Java";
         strArr[1] = "Study";
         strArr[2] = "Test";
+        System.out.println(s.substring(5,12));
         for (int i = 0; i < strArr.length; i++) {
             System.out.print(strArr[i] + " , ");
         }
