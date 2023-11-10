@@ -12,4 +12,11 @@ public class NumberReverser {
         }
         return answer;
     }
+
+    public static void main(String[] args) {
+        int n = 100;
+        StringBuilder str = new StringBuilder();
+        str.append(n);
+    }
+
 }
