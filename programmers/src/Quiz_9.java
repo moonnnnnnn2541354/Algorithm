@@ -4,6 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Quiz_9 {
+
     public static void main(String[] args) {
         // 문자열 나누기 (공백기준)
 
@@ -13,14 +14,11 @@ public class Quiz_9 {
         strArr[0] = "Java";
         strArr[1] = "Study";
         strArr[2] = "Test";
-        System.out.println(s.substring(5,12));
+        System.out.println(s.substring(5, 12));
         for (int i = 0; i < strArr.length; i++) {
             System.out.print(strArr[i] + " , ");
         }
         System.out.println();
-
-
-
 
         // 1. 보편적인 방법
         // String s = "Java Study Test";
@@ -39,19 +37,18 @@ public class Quiz_9 {
         System.out.println();
 
         // 3. 패턴 응용버전 정규식
-        Pattern p = Pattern.compile("([a-zA-Z])+");
-        Matcher m = p.matcher(s); // 더 보겠습니다 설명이 안되요 // 선언&생성
+        Pattern p = Pattern.compile("([a-z])+"); // 소문자만 출력
+        Matcher m = p.matcher(s); // Pattern에서 출력한것을 Matcher로 저장 ( 위에서 배열의 역할과 동일 )
         while (m.find()) { // 찾아죠
             System.out.print(m.group() + " , "); // 뽑아죠
         }
+        System.out.println();
 
         // 4.
         StringTokenizer st = new StringTokenizer(s);
-        while (st.hasMoreTokens()){
+        while (st.hasMoreTokens()) {
             System.out.print(st.nextToken() + " , ");
         }
         System.out.println();
-
-
     }
 }
