@@ -5,26 +5,41 @@ import java.util.Map;
 
 public class ClosestSameLetter {
     public int[] solution(String s) {
-        int[] answer = {};
+        char[] charArr = s.toCharArray();
+        Map<Character,Integer> map = new HashMap<>();
+        int[] answer = new int[charArr.length];
+        for (int i = 0; i < charArr.length; i++) {
+            if (!map.containsKey(charArr[i])){
+                answer[i] = -1;
+                map.put(charArr[i],i);
+                continue;
+            }
+            if (map.containsKey(charArr[i])) {
+                answer[i] = i-map.get(charArr[i]);
+                map.put(charArr[i],i);
+            }
+        }
         return answer;
     }
 
     public static void main(String[] args) {
         String s = "banana";
-
-        System.out.println(s.indexOf(3));
         char[] charArr = s.toCharArray();
         Map<Character,Integer> map = new HashMap<>();
-        int[] intArr = new int[charArr.length];
+        int[] answer = new int[charArr.length];
         for (int i = 0; i < charArr.length; i++) {
-            if (!map.keySet().equals(charArr[i])){
-                intArr[i] = -1;
+            if (!map.containsKey(charArr[i])){
+                answer[i] = -1;
+                map.put(charArr[i],i);
                 continue;
             }
-//            if (map.keySet().equals(charArr[i])) {
-//                map.put(charArr[i],)
-//            }
-
+            if (map.containsKey(charArr[i])) {
+                answer[i] = i-map.get(charArr[i]);
+                map.put(charArr[i],i);
+            }
+        }
+        for (int i = 0; i < answer.length; i++) {
+            System.out.println(answer[i]);
         }
 
     }
