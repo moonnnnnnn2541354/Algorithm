@@ -24,6 +24,7 @@ public class ClosestSameLetter {
 //            if (map.keySet().equals(charArr[i])) {
 //                map.put(charArr[i],)
 //            }
+
         }
 
     }
