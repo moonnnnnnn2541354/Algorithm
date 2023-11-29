@@ -2,9 +2,10 @@ package level0;
 
 
 public class IntegerSumCalculator {
+
     public long solution(int a, int b) {
-        int maxNum = (a>b)? a:b;
-        int minNum = (a<b)? a:b;
+        int maxNum = (a > b) ? a : b;
+        int minNum = (a < b) ? a : b;
         long answer = 0;
         for (int i = minNum; i <= maxNum; i++) {
             answer += i;
@@ -16,8 +17,8 @@ public class IntegerSumCalculator {
         int a = 5;
         int b = 3;
 
-        int maxNum = (a>b)? a:b;
-        int minNum = (a<b)? a:b;
+        int maxNum = (a > b) ? a : b;
+        int minNum = (a < b) ? a : b;
         long answer = 0;
 
         System.out.println(maxNum);
