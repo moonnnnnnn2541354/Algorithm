@@ -1,4 +1,4 @@
-package level0;
+package level_1;
 
 public class Watermelon {
     public String solution(int n) {
