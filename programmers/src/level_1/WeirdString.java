@@ -1,6 +1,4 @@
-package level0;
-
-import java.util.regex.Pattern;
+package level_1;
 
 public class WeirdString {
     public String solution(String s) {
