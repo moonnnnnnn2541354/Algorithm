@@ -1,4 +1,4 @@
-package level0;
+package level_1;
 
 public class SmallSubstring {
     public int solution(String t, String p) {
