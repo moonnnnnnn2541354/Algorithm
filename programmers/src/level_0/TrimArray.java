@@ -1,4 +1,4 @@
-package level0;
+package level_0;
 
 public class TrimArray {
     public int[] solution(int[] numbers, int num1, int num2) {
