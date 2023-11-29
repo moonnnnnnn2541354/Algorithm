@@ -1,4 +1,4 @@
-package level0;
+package level_1;
 
 public class PhoneNumberMasker {
     public String solution(String phone_number) {
