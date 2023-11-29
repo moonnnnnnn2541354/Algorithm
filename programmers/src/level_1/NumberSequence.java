@@ -1,4 +1,4 @@
-package level0;
+package level_1;
 
 public class NumberSequence {
     public long[] solution(int x, int n) {
