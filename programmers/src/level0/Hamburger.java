@@ -1,12 +1,6 @@
 package level0;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Stack;
-import java.util.regex.Pattern;
-import level0.NationalCompetition.StudentList;
 
 public class Hamburger {
     public int solution(int[] ingredient) {
