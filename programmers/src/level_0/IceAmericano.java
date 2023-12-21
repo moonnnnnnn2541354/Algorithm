@@ -1,4 +1,4 @@
-package level0;
+package level_0;
 
 public class IceAmericano {
     public int[] solution(int money) {
