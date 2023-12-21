@@ -1,4 +1,4 @@
-package level0;
+package level_1;
 
 public class FindMrKim {
     public String solution(String[] seoul) {
