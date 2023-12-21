@@ -1,4 +1,4 @@
-package level0;
+package level_1;
 
 public class InnerProduct {
     public int solution(int[] a, int[] b) {
