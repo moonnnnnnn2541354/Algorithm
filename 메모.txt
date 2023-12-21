@@ -1,0 +1,1 @@
+sumAtoB(Math.min(a, b), Math.max(b, a));
