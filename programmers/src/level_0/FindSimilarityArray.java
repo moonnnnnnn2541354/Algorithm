@@ -1,4 +1,4 @@
-package level0;
+package level_0;
 
 public class FindSimilarityArray {
     public int solution(String[] s1, String[] s2) {
