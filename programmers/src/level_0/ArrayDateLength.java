@@ -1,4 +1,4 @@
-package level0;
+package level_0;
 
 public class ArrayDateLength {
     // 배열원소의길이
