@@ -1,4 +1,4 @@
-package level0;
+package level_0;
 
 public class FindTheAverage {
     public double solution(int[] arr) {
