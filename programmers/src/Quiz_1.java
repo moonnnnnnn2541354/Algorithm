@@ -26,5 +26,6 @@ public class Quiz_1 {
             System.out.println("상금 : " + result);
         }
         System.out.println("-----------------------------");
+
     }
 }
