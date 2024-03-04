@@ -39,8 +39,8 @@ public class Quiz_10 {
             intList3.add(Integer.parseInt(scanner.next()));
         }
         Collections.sort(intList3);
-        System.out.println("최소 : " + intList3.getFirst());
-        System.out.println("최대 : " + intList3.getLast());
+        System.out.println("최소 : " + intList3.get(0));
+        System.out.println("최대 : " + intList3.get(intList3.size() - 1));
         System.out.println("---------------------------------------------------------------------");
 
         // 4. TODO: X X O X?
@@ -63,7 +63,7 @@ public class Quiz_10 {
         System.out.println("다섯 개의 수를 입력하시오.");
         List<Integer> intList4 = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            intList4.addFirst(Integer.parseInt(scanner.next()));
+            intList4.add(0, scanner.nextInt());
         }
         System.out.print("역순 : ");
         for (int i = 0; i < intList4.size(); i++) {
