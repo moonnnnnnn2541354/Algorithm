@@ -49,7 +49,6 @@ public class GymSuit {
                     }
                 }
             }
-
         }
 
         return n - lostList.size() + cnt;
