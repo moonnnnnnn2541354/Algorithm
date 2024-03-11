@@ -36,4 +36,26 @@ public class Password {
         }
         return answer.toString();
     }
+
+    public static void main(String[] args) {
+        String s = "y";
+        String skip = "abz";
+        int index = 1;
+
+        StringBuilder answer = new StringBuilder();
+
+
+        for (char c : s.toCharArray()) {
+            int idx = 0;
+            while (idx < index) {
+                c = c == 'z' ? 'a' : ++c;
+                if (!skip.contains(String.valueOf(c))) {
+                    ++idx;
+                }
+            }
+            answer.append(c);
+        }
+        System.out.println(answer);
+
+    }
 }
