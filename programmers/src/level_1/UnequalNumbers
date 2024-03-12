@@ -1,4 +1,4 @@
-import java.util.*;
+package level_1;
 
 public class UnequalNumbers {
     public int[] solution(int []arr) {
