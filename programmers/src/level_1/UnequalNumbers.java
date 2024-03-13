@@ -14,6 +14,7 @@ public class UnequalNumbers {
         for (int i = st.size() - 1; i >= 0; i--) {
             answer[i] = st.pop();
         }
+
         return answer;
     }
 }
