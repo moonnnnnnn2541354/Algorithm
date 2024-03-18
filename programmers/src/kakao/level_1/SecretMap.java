@@ -1,4 +1,4 @@
-package level_1;
+package kakao.level_1;
 
 public class SecretMap {
     public String[] solution(int n, int[] arr1, int[] arr2) {
