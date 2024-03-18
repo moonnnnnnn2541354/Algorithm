@@ -1,4 +1,4 @@
-package level_1;
+package kakao.level_1;
 
 public class NumberWordConverter {
 
