@@ -1,4 +1,4 @@
-package level_1;
+package kakao.level_1;
 
 import java.util.HashMap;
 import java.util.Map;
