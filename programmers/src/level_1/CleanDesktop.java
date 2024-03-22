@@ -3,10 +3,7 @@ package level_1;
 public class CleanDesktop {
     public int[] solution(String[] wallpaper) {
         int[] answer = {
-                wallpaper[0].length() - 1,
-                wallpaper[0].length() - 1,
-                0,
-                0
+                Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE
         };
 
         for (int i = 0; i < wallpaper.length; i++) {
